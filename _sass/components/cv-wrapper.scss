@@ -1,0 +1,18 @@
+.cv-wrapper {
+  display: none;
+  position: absolute;
+  max-width: 600px;
+  padding: 30px;
+  padding-bottom: 400px;
+  background-color: white;
+  z-index: 10;
+
+  @media screen and (min-width: 480px) {
+    padding-right: 25%;
+    background: linear-gradient(to right, rgba(255,255,255,1) 67%,rgba(255,255,255,1) 75%,rgba(255,255,255,0) 100%);
+  }
+}
+
+.open-cv .cv-wrapper {
+  display: block;
+}

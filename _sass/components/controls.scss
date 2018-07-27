@@ -1,0 +1,18 @@
+.leaflet-left .leaflet-control {
+    margin-left: $control-padding-vertical;
+}
+
+.leaflet-top .leaflet-control {
+    margin-top: $control-padding-horizontal;
+}
+
+.leaflet-touch .leaflet-bar a {
+  width: 3rem;
+  height: 3rem;
+  font-size: 35px;
+  line-height: 45px;
+
+  &:hover {
+    background-color: darken(white, 10%);
+  }
+}

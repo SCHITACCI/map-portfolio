@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'junicoderegular';
+  src: url('../fonts/biotiff/junicoderegular.woff2') format('woff2'),
+  url('../fonts/biotiff/junicoderegular.woff') format('woff'),
+  url('../fonts/biotiff/junicoderegular.ttf') format('truetype'),
+  url('../fonts/biotiff/junicoderegular.svg') format('svg');
+}
+
+h2 {
+  font-size: 36px;
+  margin: 2rem 0 1rem 0;
+}
+
+p {
+  //margin-bottom: 0.5rem;
+  line-height: 1.5em;
+}

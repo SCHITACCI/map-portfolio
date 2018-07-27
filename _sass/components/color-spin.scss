@@ -1,0 +1,46 @@
+$c-trasparent: rgba(200, 200, 200, 0);
+
+.gradDynamic {
+  opacity: 0.5;
+  position: fixed;
+  pointer-events: none;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.gradDynamic:after, .gradDynamic:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400%;
+  height: 400%;
+  content: "";
+}
+
+.gradDynamic:after {
+  opacity: 0.7;
+  background: radial-gradient(circle, blue, transparent);
+  animation: colorSpin 30s linear infinite;
+}
+
+.gradDynamic:before {
+  //background-color: $c-trasparent;
+}
+
+@keyframes colorSpin {
+  25% {
+    transform: translateY(-75%);
+  }
+  50% {
+    transform: translate(-75%, -75%);
+  }
+  75% {
+    transform: translate(-75%, 0);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}

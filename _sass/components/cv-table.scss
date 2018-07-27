@@ -1,0 +1,22 @@
+table, th, td {
+  border-collapse: collapse;
+  font-size: 1rem;
+  text-align: left;
+}
+
+tr {
+  margin-bottom: 1rem;
+}
+
+th {
+  padding-right: 10px;
+}
+
+td {
+  padding-bottom: 20px;
+}
+
+.nomargin {
+  padding-top: 0px;
+  margin-bottom: 0px;
+}

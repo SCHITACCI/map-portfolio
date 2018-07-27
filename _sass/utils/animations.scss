@@ -1,0 +1,16 @@
+@keyframes opacityanimation {
+    0% { opacity: 1 }
+    40% { opacity: 0.8 }
+    100% { opacity: 1 }
+}
+
+@keyframes menuflyanimation {
+    0% { top: 10% }
+    40% { top: 60% }
+    100% { top: 10% }
+}
+
+@keyframes opacityanimationstart {
+    0% { opacity: 0 }
+    100% { opacity: 1 }
+}
