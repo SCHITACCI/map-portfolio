@@ -3,23 +3,18 @@
   z-index: 100;
   bottom: $control-padding-vertical;
   left: $control-padding-horizontal;
-  border-radius: 6px;
-  background-color: white;
-  border: 2px solid rgba(0,0,0,0.2);
 
-
-
-  div {
+  a {
+    display: block;
+    border-radius: 6px;
+    background-color: white;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 0.5rem;
+    color: $text-base-color;
+    padding: 1rem 1.5rem;
     display: inline-block;
-
-    &:not(last-child) {
-      border-right: 1px solid rgba(0,0,0,0.2);
-    }
-
-    a {
-      color: $text-base-color;
-      padding: 1rem 1.5rem;
-      display: inline-block
-    }
+  }
+  a:hover {
+    border-color: blue;
   }
 }
