@@ -1,17 +1,18 @@
 body {
-padding: 0;
-margin: 0;
-max-width: 100%;
-font-family: helvetica;
-animation: 5s opacityanimationstart;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  animation: 5s opacityanimationstart;
 }
 
-html, body, #map {
-height: 100%;
-width: 100%;
+html,
+body,
+#map {
+  height: 100%;
+  width: 100%;
 }
 
 a {
   text-decoration: none;
-  color: purple
+  color: purple;
 }
